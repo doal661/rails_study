@@ -1,4 +1,27 @@
-<<<<<<< HEAD
+## 🚧 Project Context: Engineering Under Extreme Constraints
+
+> *This section was added retrospectively to document the specific engineering challenges overcome during development.*
+
+
+
+**Critical Hardware Instability (Disaster Recovery)**
+
+Developed on a **depreciated classroom desktop** with severe hardware degradation (Disk I/O errors).
+
+* **Challenge:** Encountered critical boot failures (**GRUB rescue mode** & **Early-stage Kernel Panic**) approximately **once a week**.
+
+* **Response:** Established a routine **recovery process** involving full OS (CentOS 7) re-installation and environment provisioning to ensure project continuity.
+
+
+
+**Network & Environment Constraints**
+
+* **Network:** Overcame the lack of static IP by implementing **DuckDNS** and **configuring server binding with the domain** to enable mobile testing on the local network.
+
+* **Dependency:** Resolved version conflicts between **Ruby**, **Rails 7**, and **Legacy SQLite (3.7)** through log-based troubleshooting.
+
+-----
+
 # README
 
 ## My hope for this article
